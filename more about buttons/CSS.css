@@ -1,0 +1,18 @@
+.orangeback{
+  background-color: orange;
+}
+.fuchsiaback{
+  background-color:fuchsia
+}
+.blueback{
+  background-color:blue;
+}
+.greenback{
+  background-color:green;
+}
+div{
+  width: 140pt;
+  border: 1pt solid red;
+  margin: 1pt;
+  padding:6pt;
+}
