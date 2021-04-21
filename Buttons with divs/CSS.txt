@@ -1,0 +1,17 @@
+h1{
+  font-family: cambria;
+  color:pink;
+}
+div{
+  width: 150pt;
+  padding: 2pt;
+  margin: 15pt;
+  border: 2px solid lightpink;
+  font-size: 12pt;
+}
+#div1{
+  background-color: red;
+}
+#div2{
+  background-color: yellow;
+}
