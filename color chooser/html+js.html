@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="CSS.css">
+
+
+
+</head>
+<body>
+<h1>COLOR CHOOSER PRACTICE</h1>
+<script>
+
+
+function doBlue()
+{
+ var canvas = document.getElementById("can");
+ canvas.style.backgroundColor = "blue";
+}
+
+function doColor(){
+ var canvas = document.getElementById("can");
+ var colorinput = document.getElementById("clr");
+ canvas.style.backgroundColor = colorinput.value;
+}
+
+
+
+</script>
+<canvas id="can" class="blueback"></canvas>
+
+<p>
+<input type="button" value="make blue" onclick="doBlue()">
+<input type="color" value="#FF0000" id="clr" onchange="doColor()">
+</p>
+
+</body>
+</html>

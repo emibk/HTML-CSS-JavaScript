@@ -1,0 +1,26 @@
+h1
+{
+  font-family: cambria;
+  color: red;
+}
+
+body
+{
+  margin: 20px;
+ }
+ 
+canvas
+{
+ width: 400pt;
+ height: 200pt;
+ margin: 10px;
+ border: 1px solid lightgray;
+ }
+input
+{
+ font-size: 20pt;
+}
+.orangeback
+{
+ background-color: orange;
+ }
